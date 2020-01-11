@@ -1,0 +1,15 @@
+        .title {
+            position: fixed;
+            top: 25px;
+            left: 50%;
+            margin-left: -100px;
+
+        }
+
+        .ophyon {
+            font-family: 'Ubuntu Mono', monospace;
+            position:relative;
+            top: 170px;
+            text-align: center;
+
+        }
