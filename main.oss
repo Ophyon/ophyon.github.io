@@ -13,9 +13,4 @@
             text-align: center;
 
         }
-        .projects{
-            position:absolute;
-            top:25%;
-        
-        
-        }
+
