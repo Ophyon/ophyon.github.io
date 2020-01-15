@@ -1,58 +1,44 @@
-<html>
-
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet">
-    <title>ophyon</title>
-    <style>
-         .ophyon {
-                position:relative;
-            font-family: 'Ubuntu Mono', monospace;
-            text-align: center;
-                top:200px;
-
-        }
-.container-fluid{
-text-align: center;
-}
-#about{
-height:300px;
-        background-color:coral;
-}
-#projects{
-height:300px;
-        background-color:purple;
-}
-
-    </style>
+  <title>Ophyon</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      position: relative; 
+  }
+  </style>
 </head>
-
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-  <a class="navbar-brand" href="https://github.com/Ophyon">Ophyon</a>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="#projects">projects</a>
+      <a class="nav-link" href="#section1">home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#about">about</a>
+      <a class="nav-link" href="#section2">about</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#section3">projects</a>
     </li>
   </ul>
 </nav>
-<div class="container-fluid">
-        <h1 class = "ophyon">ophyon</h1>
-<div id="about" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
+<div id="section1" class="container-fluid " style="padding-top:70px;padding-bottom:70px;bakground-color:coral">
+  <h1>Ophyon</h1>
+</div>
+<div id="section2" class="container-fluid " style="padding-top:70px;padding-bottom:70px">
   <h1>about</h1>
-  test
-<div id="projects" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
+  <p>Ophyon is an organisation that makes open source code</p>
+  <p>founded by Snabel, loading... and Toot Noot</p>
+</div>
+<div id="section3" class="container-fluid " style="padding-top:70px;padding-bottom:70px;bakground-color:silver">
   <h1>projects</h1>
-  test
+  <p>not here yet</p>
 </div>
-</div>
-    
 </body>
-
 </html>
