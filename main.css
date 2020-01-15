@@ -1,16 +1,11 @@
-        .title {
-                top:70px;
-            margin-left: -100px;
-
-        }
 
         .ophyon {
             font-family: 'Ubuntu Mono', monospace;
             text-align: center;
+                top:200px;
 
         }
 .container-fluid{
 text-align: center;
-        top:200px;
 }
 
